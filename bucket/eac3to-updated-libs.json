@@ -8,9 +8,10 @@
     "extract_dir": "eac3to",
     "bin": "eac3to.exe",
     "post_install": [
-        "$null, $bucket = Get-Manifest($app)",
-        "$bucketdir = Find-BucketDirectory($bucket)",
-        "Copy-Item \"$bucketdir\\..\\scripts\\eac3to-updated-libs\\*\" \"$dir\\\" | Out-Null"
+        "$null, $null, $bucket = Get-Manifest($app)",
+        "$bucketdir = $(Find-BucketDirectory($bucket)).TrimEnd()",
+        "$scriptsdir = join-path $bucketdir scripts",
+        "Copy-Item \"$scriptsdir\\eac3to-updated-libs\\*\" \"$dir\\\" | Out-Null"
     ],
     "checkver": "eac3to v([\\d.]+)",
     "autoupdate": {
