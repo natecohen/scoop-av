@@ -1,10 +1,10 @@
 {
-    "version": "0.42f",
+    "version": "0.42g",
     "description": "pinga is an easy to use GUI, experimental PNG and JPEG image optimizer which use some pingo's implementations",
     "homepage": "https://css-ig.net/pinga",
     "license": "Freeware",
     "url": "https://css-ig.net/bin/pinga-win64.zip",
-    "hash": "7d975615dd83acbbc6f5d76385719c72206be717129d1658df7a8bb4a61f0ecd",
+    "hash": "800ce5f08fd047e3eef3bd74aaf495e496730170004149f55452dc7f9fc9626d",
     "bin": "pinga.exe",
     "checkver": ".+>(.+?)(?:\\W)+<.+download \\(64-bit, win\\)",
     "autoupdate": {
