@@ -15,6 +15,9 @@
             "DGDemuxGUI"
         ]
     ],
+    "installer": {
+        "script": "New-Item $dir\\DGIndex.ini -Force -ErrorAction SilentlyContinue | Out-Null"
+    },
     "persist": [
         "DGDemux.ini"
     ],
