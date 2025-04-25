@@ -15,6 +15,9 @@
             "DGDemuxGUI"
         ]
     ],
+    "persist": [
+        "DGDemux.ini"
+    ],
     "checkver": {
         "url": "https://www.rationalqm.us/dgdemux/binaries/",
         "regex": "DGDemux_([\\d.]+).zip",
