@@ -4,7 +4,7 @@
     "homepage": "https://css-ig.net/pingo",
     "license": "Freeware",
     "url": "https://css-ig.net/bin/pingo-win64.zip",
-    "hash": "e023522188c653e3b209c7053833462ee3bc6694f1ad82282b5b5d01e71be3f5",
+    "hash": "9b3974ee9e0ac82dcd9c8b21bf28fd3762bea342a4c9677d23f069b3a39d4272",
     "bin": "pingo.exe",
     "checkver": "(v\\d+(?:\\.\\d+)+)",
     "autoupdate": {
